@@ -240,7 +240,7 @@ ________________________________________________________________________________
 
 Plataforma que ayuda en el desarrollo de APIs. Permite a los desarrolladores crear, probar, documentar y compartir APIs de manera eficiente. Postman ofrece una interfaz gráfica fácil de usar que simplifica el proceso de construir y probar peticiones a APIs.
 
-Observando las imagenes de ejemplo podremos ver como, en la parte lateral derecha, podremos crear todas las APIs que queramos añadiendo los endpoint que necesitemos a cada una de ellas como se puede ver en la primera imagen del endpoint POST, donde se puede ver como la API Devcamp_sqlite tiene en total 5 endpoints Un __POST__ para añadir un documento nuevo, 2 __GET__ de consultas diferentes, una para recuperar todos los registros que hay en la base de datos y el otro para consultar por su id. Un __PUT__, para modificar un documento, por su id y un __DELETE__, para eliminar un documento por su id.
+Observando las imagenes de ejemplo podremos ver como, en la parte lateral izquierda, podremos crear todas las APIs que queramos añadiendo los endpoint que necesitemos a cada una de ellas como se puede ver en la primera imagen del endpoint POST, donde se puede ver como la API Devcamp_sqlite tiene en total 5 endpoints Un __POST__ para añadir un documento nuevo, 2 __GET__ de consultas diferentes, una para recuperar todos los registros que hay en la base de datos y el otro para consultar por su id. Un __PUT__, para modificar un documento, por su id y un __DELETE__, para eliminar un documento por su id.
 
 __POST:__
 
@@ -265,7 +265,7 @@ __DELETE:__
 
 ## ¿Qué es el polimorfismo?
 
-El polimorfismo es la capacidad de los objetos de diferentes clases, de responder al mismo método o función de manera diferente. Dicho de otra manera, permite tratar diferentes tipos de objetos de manera uniforme siempre y respondiendo a ciertos métodos o funciones de manera adecuada.
+El polimorfismo es la capacidad que tienen los objetos de diferentes clases, de responder al mismo método o función de manera diferente. Dicho de otra manera, permite tratar diferentes tipos de objetos de manera uniforme siempre y respondiendo a ciertos métodos o funciones de manera adecuada.
 
 El polimorfismo se puede lograr a través del uso de la herencia y la sobreescritura de métodos. Cuando una clase hija hereda de una clase padre, puede sobrescribir los métodos de la clase padre con una implementación específica para la clase hija.
 
@@ -328,6 +328,8 @@ print(len(objeto))  # Imprime: 7
 ```
 
 En este ejemplo, ```__init__()``` se llama cuando se crea un nuevo objeto de la __clase mi_clase__, ```__str__()``` se llama cuando el objeto se convierte en una cadena, por ejemplo al imprimirlo, y ``` __len__()``` se llama cuando se solicita la longitud del objeto. Estos métodos dunder permiten que los objetos de la clase se comporten de manera más intuitiva y se integren mejor con el resto del código de Python.
+
+Aunque en el video de Jordan dice que sirven como los private o protected de otros lenguajes, por lo que he podido leer no tiene porqué ser así, pero por si acaso lo he querido poner, ya que así lo dice Jordan. Dichos métodos tendrían limitada su visibilidad fuera de la clase en la que se definen si esto fuese así y no es el caso.
 
 
 ## ¿Qué es un decorador de python?
