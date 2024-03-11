@@ -79,7 +79,7 @@ class Calculadora:
 
 El método que se ejecuta automáticamente cuando se crea una instancia de una clase en Python es el método `__init__()`. Este método se utiliza para inicializar los atributos de la clase y puede aceptar argumentos para configurar el estado inicial del objeto.
 
-```python
+```
 
 class MiClase:
     def __init__(self, parametro):
